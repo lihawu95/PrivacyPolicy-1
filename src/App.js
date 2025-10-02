@@ -6,10 +6,9 @@ import "./App.css";
 function PrivacyPolicy() {
   return (
     <div className="container">
-      <h2>Privacy Policy for ESNYCA</h2>
-      <p><strong>Effective Date:</strong> 11 February 2025</p>
-      <p><strong>Last Updated:</strong> 11 February 2025</p>
-      <p>Welcome to ESNYCA. This Privacy Policy explains how we collect, use, and protect your personal and sensitive data when you use our app.</p>
+      <h2>Privacy Policy for Plant CO</h2>
+      <p><strong>Effective Date:</strong> 01 October 2025</p>
+      <p>Welcome to Plant CO. This Privacy Policy explains how we collect, use, and protect your personal and sensitive data when you use our app.</p>
       <p>BY:Lihawu Tech</p>
 
       <h3>1. Information We Collect</h3>
@@ -61,7 +60,7 @@ We provide in-app disclosure before requesting sensitive data.</p>
 
       <h3>6. Contact Information</h3>
       <p>📧 Email: <a href="mailto:ngwenyamzwandile5@gmail.com">ngwenyamzwandile5@gmail.com</a></p>
-      <p>🌍 Website: <a href="https://esnyca.pages.dev" target="_blank" rel="noopener noreferrer">esnyca.pages.dev</a></p>
+      <p>🌍 Website: <a href="https://plantco.pages.dev" target="_blank" rel="noopener noreferrer">esnyca.pages.dev</a></p>
     </div>
   );
 }

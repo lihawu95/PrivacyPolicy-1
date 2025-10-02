@@ -1,0 +1,14 @@
+[build]
+command = "npm run build"
+cwd = "."
+watch_dir = "src"
+
+[[build.upload.rules]]
+type = "Text"
+globs = ["**/*.html"]
+fallthrough = true
+
+[[build.upload.rules]]
+type = "Data"
+globs = ["**/*.js", "**/*.css", "**/*.json", "**/*.ico", "**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg", "**/*.woff", "**/*.woff2", "**/*.ttf", "**/*.eot"]
+fallthrough = true
